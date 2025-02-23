@@ -28,13 +28,15 @@
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
     "exports": {
-        "import": {
-            "default": "./dist/index.mjs",
-            "types": "./dist/index.d.ts"
-        },
-        "require": {
-            "default": "./dist/index.cjs",
-            "types": "./dist/index.d.ts"
+        ".": {
+            "import": {
+                "default": "./dist/index.mjs",
+                "types": "./dist/index.d.ts"
+            },
+            "require": {
+                "default": "./dist/index.cjs",
+                "types": "./dist/index.d.ts"
+            }
         },
         "./package.json": "./package.json"
     }
