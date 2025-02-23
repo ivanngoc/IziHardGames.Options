@@ -1,0 +1,2 @@
+npm install --save-dev rollup rollup-plugin-typescript2
+npm install --save-dev @rollup/plugin-node-resolve @rollup/plugin-commonjs
